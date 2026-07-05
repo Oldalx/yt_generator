@@ -10,7 +10,7 @@ from langchain_core.chat_history import InMemoryChatMessageHistory
 from langchain_core.retrievers import BaseRetriever
 
 # ==========================================
-# 1. Load Configurations & API Keys (Class 1)
+# 1. Load Configurations & API Keys (
 # ==========================================
 load_dotenv()
 
@@ -25,7 +25,7 @@ def slugify(text: str) -> str:
     return text.strip('_')
 
 # ==========================================
-# 2. Define Save Tool (Class 4)
+# 2. Define Save Tool
 # ==========================================
 @tool
 def save_video_assets(topic: str, content: str) -> str:
@@ -40,7 +40,7 @@ tools_map = {"save_video_assets": save_video_assets}
 llm_with_tools = llm.bind_tools([save_video_assets])
 
 # ==========================================
-# 3. Local Brand Guidelines Retrieval (Class 5 - RAG)
+# 3. Local Brand Guidelines Retrieval 
 # ==========================================
 style_file = "channel_style.txt"
 style_docs = []
@@ -67,7 +67,7 @@ class ChannelStyleRetriever(BaseRetriever):
 retriever = ChannelStyleRetriever(docs=style_docs)
 
 # ==========================================
-# 4. Chat Memory Store (Class 3)
+# 4. Chat Memory Store 
 # ==========================================
 history_store = {}
 
