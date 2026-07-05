@@ -1,0 +1,6 @@
+YouTube Channel Branding & Style Guidelines:
+1. Target Identity: Educational tech channel delivering easy-to-follow guides for software developers.
+2. Script Tone: Enthusiastic, highly conversational, and clear. Avoid overly academic jargon; use everyday analogies instead.
+3. Title Formatting: Keep titles under 60 characters. Try to start with action words, numbers, or curiosity-inducing hooks (e.g., "Stop Doing X", "How I Built Y").
+4. Description Structure: Start with a 2-sentence hook detailing what the viewer will learn, add a section for timestamps, and always end with a call to action (CTA): "Subscribe for more Python and AI tutorials!".
+5. Hashtag Policy: Add exactly 3 highly relevant hashtags at the bottom of the description.

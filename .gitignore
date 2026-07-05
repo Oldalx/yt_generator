@@ -1,0 +1,13 @@
+# Virtual environment
+env/
+
+# API keys and secrets
+.env
+
+# Python caching
+__pycache__/
+*.pyc
+
+# Local log files and generated assets (optional)
+user_notes.txt
+*.log
